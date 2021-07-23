@@ -35,14 +35,14 @@
   },
   "name": "use-stateful-adapter",
   "author": "asim.dahal",
-  "module": "dist/use-stateful-adapter-1.esm.js",
+  "module": "dist/use-stateful-adapter.esm.js",
   "size-limit": [
     {
-      "path": "dist/use-stateful-adapter-1.cjs.production.min.js",
+      "path": "dist/use-stateful-adapter.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/use-stateful-adapter-1.esm.js",
+      "path": "dist/use-stateful-adapter.esm.js",
       "limit": "10 KB"
     }
   ],
