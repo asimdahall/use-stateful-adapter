@@ -48,10 +48,13 @@ export default function App() {
 }
 ```
 
-## Adapter Collection Methods
+`useStatefulAdapter` returns [
+    `currentState`,
+    `handler`,
+    `selectors`
+]
 
-The entity adapter also provides methods for operations against an entity. These methods can change one to many records at a time. Each method returns the newly modified state if changes were made and the same state if no changes were made.
-
+## `handler` methods
 - `addOne`: Add one entity to the collection
 - `addMany`: Add multiple entities to the collection
 - `addAll`: Replace current collection with provided collection
@@ -63,6 +66,9 @@ The entity adapter also provides methods for operations against an entity. These
 - `upsertOne`: Add or Update one entity in the collection
 - `upsertMany`: Add or Update multiple entities in the collection
 - `map`: Update multiple entities in the collection by defining a map function, similar to Array.map
+
+## `selector` methods
+- `selectById(id:string):void`: Select item by ID
 
 ## example todo application
 
